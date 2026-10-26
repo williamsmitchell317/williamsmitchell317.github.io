@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>人与ZO00：一站看懂人机协作任务面板，效率翻倍的秘密都在这里</title>
+<meta name="keywords" content="人与ZO00,人机协作,任务面板,内容生成,批量发布,ZO00平台">
+<meta name="description" content="人与ZO00 是一个聚焦人机协作的中文内容平台，实时呈现 ZO00 生成任务的网站名称、网址、时间线、模型、账号、耗时与状态等关键数据。我们持续追踪 deepseek-flash 等主流模型的批量生成表现，整理失败重试、换模型与发布上传的实战经验，帮助内容团队把每一分钟都花在刀刃上。">
+<link rel="canonical" href="https://ryzo.pages.dev/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="人与ZO00：一站看懂人机协作任务面板，效率翻倍的秘密都在这里">
+<meta property="og:description" content="人与ZO00 是一个聚焦人机协作的中文内容平台，实时呈现 ZO00 生成任务的网站名称、网址、时间线、模型、账号、耗时与状态等关键数据。我们持续追踪 deepseek-flash 等主流模型的批量生成表现，整理失败重试、换模型与发布上传的实战经验，帮助内容团队把每一分钟都花在刀刃上。无论你是个人创作者还是多人协作小组，人与ZO00 都能让你快速找到高效率、可复用的工作流方案。">
+<meta property="og:url" content="https://ryzo.pages.dev/">
+<meta property="og:site_name" content="人与ZO00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="人与ZO00：一站看懂人机协作任务面板，效率翻倍的秘密都在这里">
+<meta name="twitter:description" content="人与ZO00 是一个聚焦人机协作的中文内容平台，实时呈现 ZO00 生成任务的网站名称、网址、时间线、模型、账号、耗时与状态等关键数据。我们持续追踪 deepseek-flash 等主流模型的批量生成表现，整理失败重试、换模型与发布上传的实战经验，帮助内容团队把每一分钟都花在刀刃上。无论你是个人创作者还是多人协作小组，人与ZO00 都能让你快速找到高效率、可复用的工作流方案。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "人与ZO00",
+  "url": "https://ryzo.pages.dev/",
+  "description": "人与ZO00 是聚焦人机协作的中文内容平台，追踪 ZO00 生成任务的时间线、模型、账号、耗时与状态数据，提供批量生成、失败重试与发布上传的实战经验。",
+  "inLanguage": "zh-CN"
+}
+</script>
+<link rel="stylesheet" href="assets/vendor/foundation/css/foundation.min.css">
+<script src="assets/vendor/foundation/js/foundation.min.js"></script>
+
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://ryzo.pages.dev/","title":"人与ZO00：一站看懂人机协作任务面板，效率翻倍的秘密都在这里","pubDate":"2026-10-25T21:49:12","upDate":"2026-10-25T21:49:12"}</script>
+<link rel="stylesheet" href="assets/qg59bc.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">人与<span class="z">ZO00</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="展开菜单">菜单</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#" class="active">首页</a>
+      <a href="#cat-1">任务监控台</a>
+      <a href="#cat-2">模型实测</a>
+      <a href="#cat-3">发布与上传</a>
+      <a href="#cat-4">故障与重试</a>
+    </nav>
+  </div>
+  <div class="steps-bar">
+    <div class="container steps-inner">
+      <a class="step on" href="#hero"><span class="num">1</span>看板总览</a>
+      <a class="step" href="#panel"><span class="num">2</span>任务明细</a>
+      <a class="step" href="#models"><span class="num">3</span>模型对比</a>
+      <a class="step" href="#publish"><span class="num">4</span>发布上线</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="container">
+    <span class="eyebrow">人机协作 · 实时数据看板</span>
+    <h1>人与<span class="hl">ZO00</span>：别再盲跑了，你的每一条生成任务都该被看见</h1>
+    <p class="lead">从任务下发到内容上线，人与ZO00 把网站名称、网址、时间线、模型、账号、耗时和状态铺在同一块看板上。哪条任务卡了 15 分钟、哪个账号还没上传，一眼就能定位，重试、换模型、删除都不用翻后台。</p>
+    <div class="hero-actions">
+      <a href="#panel" class="btn btn-primary">查看实时任务</a>
+      <a href="#models" class="btn btn-ghost">对比模型耗时</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><b>1,842</b><span>本周追踪任务数</span></div>
+      <div class="stat"><b>96.3%</b><span>任务最终成功率</span></div>
+      <div class="stat"><b>8m42s</b><span>平均单条生成耗时</span></div>
+      <div class="stat"><b>3746 字</b><span>单篇平均产出字数</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Task panel -->
+<section id="panel">
+  <div class="container">
+    <div class="section-head">
+      <h2>任务执行看板</h2>
+      <p>每一条 ZO00 生成任务的完整档案：开始、结束、用时与状态，全部对齐在行内。</p>
+    </div>
+    <div class="panel">
+      <div class="panel-toolbar">
+        <input type="text" placeholder="搜索网站名称或网址…">
+        <button class="chip on">全部</button>
+        <button class="chip">生成中</button>
+        <button class="chip">生成失败</button>
+        <button class="chip">已上传</button>
+      </div>
+      <div class="cols-head">
+        <span><input type="checkbox" aria-label="全选"></span>
+        <span>网站</span><span>网址</span><span>时间</span><span class="hide-md">模型</span><span>账号</span><span>耗时</span><span>状态</span><span class="hide-md">上传</span><span>操作</span>
+      </div>
+      <div class="task-row">
+        <div class="cell cell-check"><input type="checkbox" aria-label="选择"></div>
+        <div class="cell"><div class="t-name">木头泛目录程序</div></div>
+        <div class="cell"><div class="t-url">mtfmlc.pages.dev</div></div>
+        <div class="cell time-group">开始 <b>10-17 21:36</b><br>结束 <b>10-17 21:51</b><br>用时 生成 15m28s</div>
+        <div class="cell hide-md model-tag">deepseek-flash</div>
+        <div class="cell acct"><span class="badge-sm">GH</span><span>sampsonallison9711</span></div>
+        <div class="cell cost">生成 15m28s · 3746 字</div>
+        <div class="cell"><span class="tag tag-fail">生成失败</span></div>
+        <div class="cell hide-md"><span class="tag tag-wait">未上传</span></div>
+        <div class="cell row-actions"><button class="btn-sm">重试</button><button class="btn-sm">换模型</button><button class="btn-sm btn-danger">删除</button></div>
+      </div>
+      <div class="task-row">
+        <div class="cell cell-check"><input type="checkbox" aria-label="选择"></div>
+        <div class="cell"><div class="t-name">青柠目录云</div></div>
+        <div class="cell"><div class="t-url">qlml.pages.dev</div></div>
+        <div class="cell time-group">开始 <b>10-17 19:02</b><br>结束 <b>10-17 19:09</b><br>用时 生成 7m12s</div>
+        <div class="cell hide-md model-tag">deepseek-flash</div>
+        <div class="cell acct"><span class="badge-sm">GH</span><span>mika_builds_04</span></div>
+        <div class="cell cost">生成 7m12s · 3120 字</div>
+        <div class="cell"><span class="tag tag-ok">生成成功</span></div>
+        <div class="cell hide-md"><span class="tag tag-up">已上传</span></div>
+        <div class="cell row-actions"><button class="btn-sm">重试</button><button class="btn-sm">换模型</button><button class="btn-sm btn-danger">删除</button></div>
+      </div>
+      <div class="task-row">
+        <div class="cell cell-check"><input type="checkbox" aria-label="选择"></div>
+        <div class="cell"><div class="t-name">星野资源站</div></div>
+        <div class="cell"><div class="t-url">xyres.pages.dev</div></div>
+        <div class="cell time-group">开始 <b>10-17 16:44</b><br>结束 <b>10-17 16:58</b><br>用时 生成 13m51s</div>
+        <div class="cell hide-md model-tag">deepseek-pro</div>
+        <div class="cell acct"><span class="badge-sm">GH</span><span>noriko_deploy</span></div>
+        <div class="cell cost">生成 13m51s · 4208 字</div>
+        <div class="cell"><span class="tag tag-ok">生成成功</span></div>
+        <div class="cell hide-md"><span class="tag tag-wait">未上传</span></div>
+        <div class="cell row-actions"><button class="btn-sm">重试</button><button class="btn-sm">换模型</button><button class="btn-sm btn-danger">删除</button></div>
+      </div>
+      <div class="task-row">
+        <div class="cell cell-check"><input type="checkbox" aria-label="选择"></div>
+        <div class="cell"><div class="t-name">南风笔记屋</div></div>
+        <div class="cell"><div class="t-url">nfbw.pages.dev</div></div>
+        <div class="cell time-group">开始 <b>10-17 14:20</b><br>结束 <b>—</b><br>用时 进行中 6m03s</div>
+        <div class="cell hide-md model-tag">deepseek-flash</div>
+        <div class="cell acct"><span class="badge-sm">GH</span><span>haoran_worker</span></div>
+        <div class="cell cost">已产出 1855 字</div>
+        <div class="cell"><span class="tag tag-wait">生成中</span></div>
+        <div class="cell hide-md"><span class="tag tag-wait">待定</span></div>
+        <div class="cell row-actions"><button class="btn-sm">重试</button><button class="btn-sm">换模型</button><button class="btn-sm btn-danger">删除</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Channel matrix -->
+<section id="cat-list" style="background:#fff;border-top:1px solid var(--c-border);border-bottom:1px solid var(--c-border);">
+  <div class="container">
+    <div class="section-head">
+      <h2>人与ZO00栏目入口</h2>
+      <p>按工作流阶段拆分的内容频道，覆盖从任务下发到内容上线的全链路。</p>
+    </div>
+    <div class="grid-4">
+      <a class="channel-card" href="#cat-1"><h3>任务监控台<span class="arrow">→</span></h3><p>时间线、状态与耗时的实时追踪与复盘</p></a>
+      <a class="channel-card" href="#cat-2"><h3>模型实测<span class="arrow">→</span></h3><p>deepseek-flash 等模型的横向对比数据</p></a>
+      <a class="channel-card" href="#cat-3"><h3>发布与上传<span class="arrow">→</span></h3><p>账号管理、上传节奏与上线检查清单</p></a>
+      <a class="channel-card" href="#cat-4"><h3>故障与重试<span class="arrow">→</span></h3><p>失败归因、换模型策略与批量重试经验</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- Why -->
+<section id="cat-1">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">任务监控台</span>
+      <h2>为什么任务会"悄悄失败"？因为没人盯着它</h2>
+      <p>一条 15 分钟才报错的生成任务，浪费的不只是时间，还有排在它后面的整条队列。</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon">⏱</div>
+        <h3>时间线三行看得清</h3>
+        <p>开始时间、结束时间、分阶段用时直接写在行内。生成 15m28s 还是 7m12s，不用点进去猜，慢任务当场现形。</p>
+      </div>
+      <div class="card alt">
+        <div class="icon">🧾</div>
+        <h3>字数产出随时对账</h3>
+        <p>每条任务标注产出字数，3746 字还是 3120 字一目了然。产出量与耗时放在一起看，性价比立刻分层。</p>
+      </div>
+      <div class="card alt2">
+        <div class="icon">🚦</div>
+        <h3>状态标签双色分层</h3>
+        <p>生成失败用红底标注，成功用浅绿确认，未上传与生成中各自独立。筛选一次，问题队列马上浮出水面。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Models -->
+<section id="models" style="background:#fff;border-top:1px solid var(--c-border);border-bottom:1px solid var(--c-border);">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">模型实测</span>
+      <h2>deepseek-flash 到底快不快？我们跑了上千条数据</h2>
+      <p>同一批选题、同一套提示词，只换模型，看耗时与产出差距有多大。</p>
+    </div>
+    <div class="strip">
+      <div class="grid-4">
+        <div><b>7m12s</b><span>flash 平均生成耗时</span></div>
+        <div><b>13m51s</b><span>pro 平均生成耗时</span></div>
+        <div><b>+18%</b><span>flash 重试率相对偏高</span></div>
+        <div><b>+31%</b><span>pro 单篇平均字数更高</span></div>
+      </div>
+    </div>
+    <div class="grid-2" style="margin-top:22px;">
+      <div class="card">
+        <h3>追速度：flash 适合批量铺量</h3>
+        <p>时效型选题、目录站内容更新，flash 的速度优势明显。建议搭配批量重试策略，失败任务当天补跑，不占用次日队列。</p>
+      </div>
+      <div class="card alt">
+        <h3>追深度：pro 适合核心栏目</h3>
+        <p>长文、测评类内容交给 pro，字数更足、结构更稳。核心栏目单独排队列，避开高峰时段，耗时能压缩两成左右。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Publish -->
+<section id="publish" style="background:var(--c-mint);">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">发布与上传</span>
+      <h2>生成成功只是半场，没上传的内容等于零</h2>
+      <p>看板上"未上传"的灰色标签，是大多数团队最容易被忽略的进度黑洞。</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon">📤</div>
+        <h3>上传状态行内可见</h3>
+        <p>已上传、未上传、待定三种状态直接标在任务行里，不用逐个站点登录核对，交接时也省去口头确认。</p>
+      </div>
+      <div class="card alt">
+        <div class="icon">👤</div>
+        <h3>账号归属一目了然</h3>
+        <p>每条任务绑定执行账号，紫蓝徽标加账号名同行展示。多人协作时，谁的产出、谁负责上传，责任边界清清楚楚。</p>
+      </div>
+      <div class="card alt2">
+        <div class="icon">✅</div>
+        <h3>上线前最后一道闸</h3>
+        <p>上传前列一遍链接可访问性、标题规范与正文完整度，把"生成成功但页面打不开"这类低级事故拦在发布之前。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Retry / failure -->
+<section id="cat-4">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">故障与重试</span>
+      <h2>失败不可怕，可怕的是失败之后乱点一通</h2>
+      <p>重试、换模型、删除三个按钮，顺序对了，队列很快就能救回来。</p>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>先重试，再换模型</h3>
+        <p>超时类失败多数是临时波动，原地重试成功率最高。同一任务连续两次失败，再考虑切换模型重新生成，避免在坏队列里反复空转。</p>
+      </div>
+      <div class="card alt2">
+        <h3>该删就删，别养僵尸任务</h3>
+        <p>选题已过时、网址已下线的失败任务，果断删除并记录原因。队列越干净，新任务的排队时间越短，整体成功率反而越高。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Articles -->
+<section id="cat-2" style="background:#fff;border-top:1px solid var(--c-border);border-bottom:1px solid var(--c-border);">
+  <div class="container">
+    <div class="section-head">
+      <h2>人与ZO00最新经验</h2>
+      <p>来自真实任务记录的复盘文章，每周更新。</p>
+    </div>
+    <div class="grid-2">
+      <article class="post-item">
+        <div class="post-thumb" style="background:linear-gradient(135deg,#6366F1,#8B8DF5);">01</div>
+        <div>
+          <h3>一条任务跑了 15 分 28 秒才报错，问题出在哪</h3>
+          <p>复盘木头泛目录程序这条失败任务：从时间线拆解排队等待与生成阶段的耗时占比，找出真正的瓶颈点。</p>
+          <div class="post-meta"><span class="cat">故障与重试</span><span>阅读 6 分钟</span></div>
+        </div>
+      </article>
+      <article class="post-item">
+        <div class="post-thumb" style="background:linear-gradient(135deg,#12A150,#4CC584);">02</div>
+        <div>
+          <h3>flash 与 pro 混编队列：我们把平均耗时压到了 8 分钟</h3>
+          <p>按内容类型分配模型，时效选题走 flash、深度栏目走 pro，混排之后队列吞吐量提升近四成。</p>
+          <div class="post-meta"><span class="cat">模型实测</span><span>阅读 8 分钟</span></div>
+        </div>
+      </article>
+      <article class="post-item">
+        <div class="post-thumb" style="background:linear-gradient(135deg,#E5484D,#F0767A);">03</div>
+        <div>
+          <h3>未上传积压 30 条怎么办：一次两小时的清零行动</h3>
+          <p>把"未上传"标签单独筛出来，按账号分批处理，配合上线前检查清单，一个下午清空全部积压。</p>
+          <div class="post-meta"><span class="cat">发布与上传</span><span>阅读 5 分钟</span></div>
+        </div>
+      </article>
+      <article class="post-item">
+        <div class="post-thumb" style="background:linear-gradient(135deg,#3A3F49,#6B7280);">04</div>
+        <div>
+          <h3>账号轮换的正确姿势：别让一个账号扛下所有队列</h3>
+          <p>单账号高并发是失败率飙升的隐形推手。分享我们的轮换节奏与负载观察方法，稳定压低整队失败率。</p>
+          <div class="post-meta"><span class="cat">任务监控台</span><span>阅读 7 分钟</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <h2>人与ZO00常见问题</h2>
+      <p>关于人与ZO00 与任务看板，大家最常问的几件事。</p>
+    </div>
+    <details class="faq-item" open>
+      <summary>生成失败的任务为什么有时要 15 分钟才报错？</summary>
+      <p class="faq-body">多数失败发生在排队与生成两个阶段，部分异常要等到超时阈值触发才会判定失败。看板把开始、结束与分阶段用时都写在行内，超长任务可以提前识别并手动干预。</p>
+    </details>
+    <details class="faq-item">
+      <summary>换模型之后，原来生成了一半的内容还在吗？</summary>
+      <p class="faq-body">换模型会以新配置重新生成整条任务，原任务的产出不会保留。如果原产出仍有价值，建议先在删除前备份正文，再执行换模型操作。</p>
+    </details>
+    <details class="faq-item">
+      <summary>同一批选题，flash 和 pro 应该怎么分配？</summary>
+      <p class="faq-body">时效型、铺量型内容优先 flash，速度优势明显；长文、测评与核心栏目交给 pro，字数与结构更稳。按类型分队列混排，是实测下来性价比最高的方案。</p>
+    </details>
+    <details class="faq-item">
+      <summary>"未上传"状态的任务会自动发布吗？</summary>
+      <p class="faq-body">不会。上传始终需要人工确认，这是有意保留的最后一道闸——生成成功不代表页面质量达标，发布前的检查环节不能省。</p>
+    </details>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>把下一条失败任务，变成一条可复盘的数据</h2>
+        <p>从看板总览到发布上线，人与ZO00 陪你跑完每一环。</p>
+      </div>
+      <a href="#panel" class="btn">回到看板，马上排查</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">人与<span class="z">ZO00</span></div>
+        <p style="font-size:13.5px;margin:0;">聚焦人机协作的中文内容平台，用数据看板追踪每一条 ZO00 生成任务的时间线、模型、账号与状态，让失败可归因、产出可对账。</p>
+      </div>
+      <div>
+        <h4>栏目</h4>
+        <ul>
+          <li><a href="#cat-1">任务监控台</a></li>
+          <li><a href="#cat-2">模型实测</a></li>
+          <li><a href="#cat-3">发布与上传</a></li>
+          <li><a href="#cat-4">故障与重试</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>热门内容</h4>
+        <ul>
+          <li><a href="#models">模型耗时对比</a></li>
+          <li><a href="#publish">上线检查清单</a></li>
+          <li><a href="#cat-4">重试策略</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#hero">平台介绍</a></li>
+          <li><a href="#cat-list">栏目入口</a></li>
+          <li><a href="#panel">实时看板</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 人与ZO00 · ryzo.pages.dev</span>
+      <span>数据每周更新 · 内容仅供参考</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click',function(){
+  document.getElementById('mainNav').classList.toggle('open');
+});
+document.querySelectorAll('.chip').forEach(function(c){
+  c.addEventListener('click',function(){
+    document.querySelectorAll('.chip').forEach(function(x){x.classList.remove('on');});
+    c.classList.add('on');
+  });
+});
+document.querySelectorAll('.step').forEach(function(s){
+  s.addEventListener('click',function(){
+    document.querySelectorAll('.step').forEach(function(x){x.classList.remove('on');});
+    s.classList.add('on');
+  });
+});
+</script>
+</body>
+</html
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">人与<span class="z">ZO00</span></div>
+        <p style="font-size:13.5px;margin:0 0 10px;">聚焦人机协作的中文内容平台，用数据看板追踪每一条 ZO00 生成任务的时间线、模型、账号与状态，让失败可归因、产出可对账。</p>
+        <p style="font-size:12.5px;margin:0;color:#6E7787;">任务数据每周更新，栏目内容持续维护。</p>
+      </div>
+      <div>
+        <h4>栏目导航</h4>
+        <ul>
+          <li><a href="#cat-1">任务监控台</a></li>
+          <li><a href="#cat-2">模型实测</a></li>
+          <li><a href="#cat-3">发布与上传</a></li>
+          <li><a href="#cat-4">故障与重试</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>热门内容</h4>
+        <ul>
+          <li><a href="#models">模型耗时对比</a></li>
+          <li><a href="#publish">上线检查清单</a></li>
+          <li><a href="#cat-4">批量重试策略</a></li>
+          <li><a href="#panel">实时任务看板</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于平台</h4>
+        <ul>
+          <li><a href="#hero">平台介绍</a></li>
+          <li><a href="#cat-list">栏目入口</a></li>
+          <li><a href="#panel">任务明细</a></li>
+          <li><a href="#hero">数据口径说明</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 人与ZO00 · ryzo.pages.dev</span>
+      <span>内容基于真实任务记录整理，仅供参考</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('mainNav');
+  if(toggle && nav){
+    toggle.addEventListener('click', function(){
+      nav.classList.toggle('open');
+    });
+    nav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        nav.classList.remove('open');
+      });
+    });
+  }
+
+  document.querySelectorAll('.chip').forEach(function(chip){
+    chip.addEventListener('click', function(){
+      document.querySelectorAll('.chip').forEach(function(x){ x.classList.remove('on'); });
+      chip.classList.add('on');
+    });
+  });
+
+  document.querySelectorAll('.step').forEach(function(step){
+    step.addEventListener('click', function(){
+      document.querySelectorAll('.step').forEach(function(x){ x.classList.remove('on'); });
+      step.classList.add('on');
+    });
+  });
+
+  var rows = document.querySelectorAll('.task-row');
+  rows.forEach(function(row){
+    var btn = row.querySelector('.btn-danger');
+    if(btn){
+      btn.addEventListener('click', function(){
+        row.style.transition = 'opacity .2s, transform .2s';
+        row.style.opacity = '0';
+        row.style.transform = 'translateX(-8px)';
+        setTimeout(function(){ row.remove(); }, 200);
+      });
+    }
+  });
+})();
+</script>
+</body>
+</html>
